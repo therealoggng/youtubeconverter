@@ -1,2 +1,1 @@
-web: gunicorn converter.wsgi
-
+web: gunicorn main.wsgi --log-file -
