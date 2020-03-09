@@ -26,7 +26,7 @@ SECRET_KEY = 'c++ek5c(fmjfg3*2t)tx+f2km1g#qgjg_)4iw@9gtlgtqrf2-='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["https://converter-kutman-2.herokuapp.com/"]
 
 
 
