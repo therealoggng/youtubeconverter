@@ -1,9 +1,10 @@
+import re
 import requests
 import youtube_dl
-import re
-from django.core.mail import send_mail
-from main.celery import app
 from django.conf import settings
+from django.core.mail import send_mail
+
+from main.celery import app
 from .models import Converter
 
 
