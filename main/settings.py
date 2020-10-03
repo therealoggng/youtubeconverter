@@ -1,7 +1,7 @@
-import os
 import dj_database_url
-import environ
 import django_heroku
+import environ
+import os
 
 env = environ.Env()
 
